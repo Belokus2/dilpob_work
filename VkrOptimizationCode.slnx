@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Vkr.AcelanIntegration/Vkr.AcelanIntegration.csproj" />
+  <Project Path="Vkr.Optimization/Vkr.Optimization.csproj" />
+  <Project Path="Vkr.SyntheticBenchmarks/Vkr.SyntheticBenchmarks.csproj" />
+</Solution>

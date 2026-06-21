@@ -1,0 +1,26 @@
+# Binaries
+[Oo]bj/
+[Bb]in/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+
+# Personal backups (не заливать на GitHub)
+diploma_backup/
+OptimizationProject_old/
+
+# Benchmark results
+# Игнорируем детальные CSV-трассировки (около 2000 файлов), чтобы не засорять Git
+results/**/AntAnnealingOptimizer_run*_trace.csv
+results/**/SimulatedAnnealingOptimizer_run*_trace.csv
+results/**/GradientDescentOptimizer_run*_trace.csv
+
+# Но разрешаем итоговый отчет и графики сходимости
+!results/D2/summary_report.csv
+!results/plots/
+!results/plots/*.png

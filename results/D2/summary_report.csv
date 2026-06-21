@@ -1,0 +1,67 @@
+Function,Optimizer,SuccessRate,MinFx,MeanFx,StdFx,MeanEvals,MeanTimeMs
+Sphere,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,923.4
+Sphere,SimulatedAnnealingOptimizer,0,1.330E-007,9.540E-006,9.343E-006,10001,3.2
+Sphere,GradientDescentOptimizer,1,1.594E-044,1.849E-044,1.394E-045,25001,4.3
+Elliptic,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1025.5
+Elliptic,SimulatedAnnealingOptimizer,0,2.140E+000,2.160E+003,1.964E+003,10001,4.7
+Elliptic,GradientDescentOptimizer,0,1.490E+007,3.305E+009,3.103E+009,25001,4.6
+SumSquare,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1091.1
+SumSquare,SimulatedAnnealingOptimizer,0,7.861E-007,7.845E-006,6.763E-006,10001,4.0
+SumSquare,GradientDescentOptimizer,1,1.788E-044,2.381E-044,3.674E-045,25001,3.8
+sumPower,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1593.5
+sumPower,SimulatedAnnealingOptimizer,0.06666666666666667,5.934E-009,7.862E-007,1.203E-006,10001,5.5
+sumPower,GradientDescentOptimizer,1,2.137E-009,2.326E-009,4.461E-011,25001,12.2
+Schwefel 2.22,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1175.3
+Schwefel 2.22,SimulatedAnnealingOptimizer,0,2.778E-004,2.274E-003,1.171E-003,10001,4.3
+Schwefel 2.22,GradientDescentOptimizer,0,2.141E-003,3.216E-002,1.401E-002,25001,4.3
+Schwefel 2.21,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1098.5
+Schwefel 2.21,SimulatedAnnealingOptimizer,1,3.815E-004,1.983E-003,8.951E-004,10001,4.4
+Schwefel 2.21,GradientDescentOptimizer,1,4.239E-003,1.639E-002,6.645E-003,25001,4.6
+Step,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1049.5
+Step,SimulatedAnnealingOptimizer,0.7333333333333333,0.000E+000,7.337E+001,1.685E+002,10001,3.0
+Step,GradientDescentOptimizer,0,5.330E+002,6.439E+003,4.125E+003,25001,4.3
+Exponential,AntAnnealingOptimizer,0,4.540E-005,4.540E-005,2.068E-020,6036001,1117.2
+Exponential,SimulatedAnnealingOptimizer,0,5.085E-005,3.658E-004,5.288E-004,10001,4.2
+Exponential,GradientDescentOptimizer,0,4.540E-005,6.769E-003,4.086E-003,25001,4.7
+Quartic,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1303.5
+Quartic,SimulatedAnnealingOptimizer,1,3.223E-012,8.122E-010,1.636E-009,10001,4.4
+Quartic,GradientDescentOptimizer,1,3.108E-007,3.675E-007,1.553E-008,25001,7.0
+Rosenbrock,AntAnnealingOptimizer,1,5.083E-016,1.284E-009,2.717E-009,6036001,1140.5
+Rosenbrock,SimulatedAnnealingOptimizer,1,2.627E-010,1.332E-005,2.531E-005,10001,3.5
+Rosenbrock,GradientDescentOptimizer,0,1.190E+002,1.198E+006,9.618E+005,25001,4.6
+Rastrigin,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1223.8
+Rastrigin,SimulatedAnnealingOptimizer,0,9.950E-001,1.695E+001,1.079E+001,10001,4.2
+Rastrigin,GradientDescentOptimizer,0,4.914E+000,1.291E+001,7.830E+000,25001,5.6
+NCRastrigin,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1277.7
+NCRastrigin,SimulatedAnnealingOptimizer,0,1.000E+000,1.727E+001,1.086E+001,10001,3.7
+NCRastrigin,GradientDescentOptimizer,0,2.000E+000,3.699E+001,1.726E+001,25001,5.9
+Griewank,AntAnnealingOptimizer,0.8666666666666667,0.000E+000,1.756E-002,4.704E-002,6036001,1247.6
+Griewank,SimulatedAnnealingOptimizer,0,4.959E+000,5.652E+001,3.623E+001,10001,4.3
+Griewank,GradientDescentOptimizer,0,4.959E+000,5.797E+001,3.708E+001,25001,5.7
+Schwefel2.26,AntAnnealingOptimizer,0,1.109E-008,1.026E-006,7.647E-007,6036001,1326.8
+Schwefel2.26,SimulatedAnnealingOptimizer,0,1.184E+002,3.812E+002,1.671E+002,10001,4.4
+Schwefel2.26,GradientDescentOptimizer,0,1.184E+002,3.872E+002,1.650E+002,25001,6.2
+Ackley,AntAnnealingOptimizer,1,-4.441E-016,-4.441E-016,0.000E+000,6036001,1384.2
+Ackley,SimulatedAnnealingOptimizer,0,1.285E+001,1.924E+001,1.545E+000,10001,4.5
+Ackley,GradientDescentOptimizer,0,1.631E+001,1.971E+001,9.611E-001,25001,6.1
+Penalized1,AntAnnealingOptimizer,0.06666666666666667,2.804E-009,1.247E-007,1.068E-007,6036001,1987.4
+Penalized1,SimulatedAnnealingOptimizer,0,7.774E+000,2.848E+001,1.709E+001,10001,5.3
+Penalized1,GradientDescentOptimizer,0,2.321E+006,2.188E+009,2.447E+009,25001,10.7
+Penalized2,AntAnnealingOptimizer,0.06666666666666667,2.077E-009,2.750E-007,2.098E-007,6036001,2100.3
+Penalized2,SimulatedAnnealingOptimizer,0,2.058E-006,9.304E+000,2.996E+000,10001,6.5
+Penalized2,GradientDescentOptimizer,0,2.320E+006,2.188E+009,2.447E+009,25001,11.5
+Alpine,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,1140.4
+Alpine,SimulatedAnnealingOptimizer,0,4.323E-007,5.167E-005,6.781E-005,10001,3.8
+Alpine,GradientDescentOptimizer,0,1.081E-008,2.452E-004,2.832E-004,25001,4.9
+Levy,AntAnnealingOptimizer,0,6.225E-006,9.892E-005,6.796E-005,6036001,1920.1
+Levy,SimulatedAnnealingOptimizer,0,2.599E-004,2.657E+000,3.067E+000,10001,5.3
+Levy,GradientDescentOptimizer,0,2.768E-002,7.705E+000,4.139E+000,25001,11.2
+Weierstrass,AntAnnealingOptimizer,1,0.000E+000,0.000E+000,0.000E+000,6036001,25710.4
+Weierstrass,SimulatedAnnealingOptimizer,0.9333333333333333,0.000E+000,3.647E-004,1.423E-003,10001,49.6
+Weierstrass,GradientDescentOptimizer,1,0.000E+000,0.000E+000,0.000E+000,25001,109.9
+Styblinski-Tang,AntAnnealingOptimizer,1,-7.833E+001,-7.833E+001,2.372E-007,6036001,1417.9
+Styblinski-Tang,SimulatedAnnealingOptimizer,1,-7.833E+001,-6.467E+001,1.016E+001,10001,4.3
+Styblinski-Tang,GradientDescentOptimizer,1,-7.833E+001,-6.467E+001,9.453E+000,25001,6.3
+Michalewicz,AntAnnealingOptimizer,1,-1.801E+000,-1.801E+000,1.042E-006,6036001,1706.2
+Michalewicz,SimulatedAnnealingOptimizer,1,-1.801E+000,-1.801E+000,1.190E-004,10001,5.3
+Michalewicz,GradientDescentOptimizer,0.03333333333333333,-1.801E+000,-7.863E-001,6.285E-001,25001,8.8
